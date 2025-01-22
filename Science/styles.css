@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif; /* Set font to Arial */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Set a solid background color */
+}
+
+header {
+    background-image: url('sciimg.png'); /* Replace with your header image URL */
+    background-size: cover; /* Cover the entire header */
+    background-position: center; /* Center the image */
+    color: yellow; /* Set header text color to yellow */
+    text-align: center;
+    padding: 2em 0; /* Adjust padding as needed */
+    text-shadow: 4px 4px 0px black; /* Thicker black outline for header text */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+section {
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    position: relative; /* Position relative for pseudo-element */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transform and box-shadow */
+    border: 2px solid black; /* Add a black outline */
+}
+
+section:hover {
+    transform: scale(1.05); /* Enlarge the section slightly on hover */
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.8); /* Add a yellow glow effect */
+}
+
+section:nth-of-type(1) {
+    background-image: url('wind turbines.jpg'); /* Wind Turbines */
+}
+
+section:nth-of-type(2) {
+    background-image: url('solar panel.jpg'); /* Solar Panels */
+}
+
+section:nth-of-type(3) {
+    background-image: url('rain harvesting system.jpg'); /* Rain Harvesting System */
+}
+
+section:nth-of-type(4) {
+    background-image: url('plane.jpg'); /* Airplane */
+}
+
+section:nth-of-type(5) {
+    background-image: url('car.jpg'); /* Car */
+}
+
+section:nth-of-type(6) {
+    background-image: url('train.jpg'); /* Train */
+}
+
+h2 {
+    color: yellow; /* Set h2 text color to yellow */
+    text-shadow: 4px 4px 0px black; /* Thicker black outline for h2 text */
+}
+
+p {
+    text-align: center;
+    line-height: 1.6;
+    color: white; /* Set paragraph text color to white */
+    text-shadow: 2px 2px 0px black; /* Thicker black outline for paragraph text */
+    font-size: 1.2em; /* Increase font size for normal text */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em; /* Smaller font size */
+    color: white; /* Set footer text color to white */
+    font-weight: bold; /* Make footer text thicker */
+    text-shadow: 2px 2px 0px black; /* Thicker black outline for footer text */
+}
