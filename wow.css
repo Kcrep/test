@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff3cd; /* Yellowish background */
+    color: #5c3e1f; /* Dark brown text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffeeba;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.structure {
+    border: 2px solid #ffeeba; /* Light yellow border */
+    padding: 15px;
+    margin: 15px 0;
+    background-color: #fff;
+}
+
+h2 {
+    color: #856404; /* Darker yellow for structure titles */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffeeba;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
